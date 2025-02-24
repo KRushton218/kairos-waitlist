@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="254.76405mm"
+   height="254.76405mm"
+   viewBox="0 0 254.76405 254.76405"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1">
+      <ellipse
+         style="fill:#1c1f33;fill-opacity:1;stroke-width:0.261733"
+         id="circle2"
+         cx="153.25949"
+         cy="245.54709"
+         rx="127.80974"
+         ry="126.95575" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-1.1227089,-0.6140701)">
+    <g
+       id="g7"
+       transform="translate(-24.241877,-118.37547)">
+      <circle
+         style="fill:#1c1f33;fill-opacity:1;stroke-width:0.261733"
+         id="path1"
+         cx="152.74661"
+         cy="246.37157"
+         r="127.38203" />
+      <text
+         xml:space="preserve"
+         style="font-size:285.762px;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#00d1b2;fill-opacity:1;stroke-width:0.238134"
+         x="60.637825"
+         y="340.10773"
+         id="text4"
+         transform="scale(0.99665354,1.0033577)"
+         clip-path="url(#clipPath1)"><tspan
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:285.762px;font-family:Charter;-inkscape-font-specification:Charter;fill:#00d1b2;fill-opacity:1;stroke-width:0.238134"
+           x="60.637825"
+           y="340.10773">K</tspan></text>
+    </g>
+  </g>
+</svg>
