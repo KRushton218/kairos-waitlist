@@ -1,0 +1,57 @@
+
+
+  VITE v6.1.0  ready in 94 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+1:01:48 AM [vite] Internal server error: Failed to load PostCSS config (searchPath: /Volumes/External/signup/jarvis-signup): [Error] Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+Require stack:
+- /Volumes/External/signup/jarvis-signup/postcss.config.js
+
+(@/Volumes/External/signup/jarvis-signup/postcss.config.js)
+Error: Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+Require stack:
+- /Volumes/External/signup/jarvis-signup/postcss.config.js
+
+(@/Volumes/External/signup/jarvis-signup/postcss.config.js)
+    at load (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14865:11)
+    at async Promise.all (index 1)
+    at async plugins (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14894:12)
+    at async processResult (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14965:14)
+  Plugin: vite:css
+  File: /Volumes/External/signup/jarvis-signup/src/index.css
+1:01:48 AM [vite] (client) Pre-transform error: Failed to load PostCSS config (searchPath: /Volumes/External/signup/jarvis-signup): [Error] Loading PostCSS Plugin failed: Cannot find module 'autoprefixer
+1:01:48 AM [vite] (client) Pre-transform error: Failed to load PostCSS config (searchPath: /Volumes/External/signup/jarvis-signup): [Error] Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+Require stack:
+- /Volumes/External/signup/jarvis-signup/postcss.config.js
+
+(@/Volumes/External/signup/jarvis-signup/postcss.config.js)
+Error: Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+Require stack:
+- /Volumes/External/signup/jarvis-signup/postcss.config.js
+
+(@/Volumes/External/signup/jarvis-signup/postcss.config.js)
+    at load (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14865:11)
+    at async Promise.all (index 1)
+    at async plugins (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14894:12)
+    at async processResult (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14965:14)
+  Plugin: vite:css
+  File: /Volumes/External/signup/jarvis-signup/src/index.css
+1:01:48 AM [vite] (client) Pre-transform error: Failed to load PostCSS config (searchPath: /Volumes/External/signup/jarvis-signup): [Error] Loading PostCSS Plugin failed: Cannot find module 'autoprefixer
+1:01:48 AM [vite] (client) Pre-transform error: Failed to load PostCSS config (searchPath: /Volumes/External/signup/jarvis-signup): [Error] Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+Require stack:
+- /Volumes/External/signup/jarvis-signup/postcss.config.js
+
+(@/Volumes/External/signup/jarvis-signup/postcss.config.js)
+Error: Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+Require stack:
+- /Volumes/External/signup/jarvis-signup/postcss.config.js
+
+(@/Volumes/External/signup/jarvis-signup/postcss.config.js)
+    at load (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14865:11)
+    at async Promise.all (index 1)
+    at async plugins (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14894:12)
+    at async processResult (file:///Volumes/External/signup/jarvis-signup/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:14965:14)
+  Plugin: vite:css
+  File: /Volumes/External/signup/jarvis-signup/src/index.css (x2)

@@ -1,0 +1,208 @@
+/* SurveyForm.css */
+
+/* Base page styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1F33; /* Deep Navy for a sleek, dark background */
+    color: #F8FAFC;           /* Light text color */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  /* Form container */
+  form {
+    width: 90%; /* Set width to 80% of the window size */
+    max-width: 100%; /* Set a maximum width */
+    min-width: 100%; /* Set a minimum width to prevent shrinking */
+    margin: 2rem auto; /* Center the form horizontally */
+    padding: 2rem;
+    background-color: #2F2F2F; /* Charcoal Gray for contrast */
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Section headings */
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #B4DFFF; /* Soft Sky accent */
+    font-weight: 600;
+  }
+  
+  /* Labels & inputs */
+  label {
+    display: block;
+    margin-bottom: 1.5rem; /* Increased margin for better spacing */
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  label input[type="text"],
+  label input[type="email"],
+  label input[type="password"],
+  label select,
+  label textarea {
+    display: block;
+    width: 100%;
+    /* min-width: 300px; Set a minimum width to prevent shrinking */
+    /* max-width: 600px; Set a maximum width */
+    margin-top: 0.75rem; /* Increased margin for better spacing */
+    padding: 0.75rem 1rem; /* Increased padding for better spacing */
+    background-color: #1C1F33; /* Deep Navy for form fields */
+    border: 1px solid #B4DFFF; /* Soft Sky border for clarity */
+    border-radius: 4px;
+    color: #F8FAFC;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Checkbox alignment */
+  label.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem; /* Increased margin for better spacing */
+  }
+  
+  label.checkbox input[type="checkbox"] {
+    margin-right: 0.75rem; /* Increased margin for better spacing */
+  }
+  
+  /* Radio & Checkbox within fieldset */
+  fieldset {
+    border: none;
+    margin: 1.5rem 0; /* Increased margin for better spacing */
+    padding: 0;
+  }
+  
+  legend {
+    font-weight: 600;
+    margin-bottom: 0.75rem; /* Increased margin for better spacing */
+  }
+  
+  /* Progress bar container */
+  .progress-bar-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Center the progress bar */
+    padding: 10px 0;
+  }
+  
+  /* Progress bar */
+  .progress-bar {
+    width: 100%;
+    /* max-width: 600px; Set a max width for consistency */
+    background-color: #2F2F2F;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Progress bar fill */
+  .progress {
+    background: linear-gradient(90deg, #6b5bff, #a29bfe); /* Gradient fill */
+    height: 16px;
+    transition: width 0.3s ease;
+    border-radius: 20px; /* Match the container's rounded corners */
+  }
+  
+  Progress text
+  .progress-bar::after {
+    content: attr(data-progress) '%'; /* Display the progress percentage */
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #1C1F33; /* Dark text color for unfilled part */
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0; /* Ensure text is below the filled part */
+  }
+  
+  /* Navigation buttons */
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between; /* Distribute buttons to the left and right */
+    margin-top: 2rem; /* Add some space above the buttons */
+  }
+  
+  /* Buttons (Previous, Next, Submit) */
+  button {
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #147BDC; /* Slightly darker blue on hover */
+  }
+  
+  /* Example of a secondary button style (optional) */
+  button.secondary {
+    background-color: #B4DFFF; /* Soft Sky for secondary actions */
+    color: #1C1F33;            /* Dark text for contrast on lighter background */
+  }
+  
+  button.secondary:hover {
+    background-color: #A1CDEE; /* Slightly darker shade on hover */
+  }
+  
+  /* Textarea (if used) */
+  textarea {
+    min-height: 80px;
+    resize: vertical;
+  }
+  
+  /* Add any additional classes or adjustments below as needed */
+  .checkbox-item {
+    margin-bottom: 1.5rem; /* Increased margin for better spacing */
+  }
+  
+  /* Tooltip styling */
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    position: absolute;
+    bottom: 120%;          /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    white-space: normal;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
+    width: 80vw;           /* Set width to 80% of the viewport width */
+    max-width: 300px;      /* Set a maximum width */
+  }
+  
+  .tooltip-container:hover .tooltip {
+    opacity: 1;
+  }
