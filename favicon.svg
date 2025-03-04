@@ -2,51 +2,64 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="254.76405mm"
-   height="254.76405mm"
-   viewBox="0 0 254.76405 254.76405"
+   width="200.33223mm"
+   height="200.33223mm"
+   viewBox="0 0 200.33223 200.33223"
    version="1.1"
    id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1">
-      <ellipse
-         style="fill:#1c1f33;fill-opacity:1;stroke-width:0.261733"
-         id="circle2"
-         cx="153.25949"
-         cy="245.54709"
-         rx="127.80974"
-         ry="126.95575" />
-    </clipPath>
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#00c3c3;stop-opacity:0.42076501;"
+         offset="0.14"
+         id="stop1" />
+      <stop
+         style="stop-color:#00c3c3;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="swatch8">
+      <stop
+         style="stop-color:#4b4b4b;stop-opacity:0.37837842;"
+         offset="0"
+         id="stop8" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient2"
+       id="radialGradient11"
+       cx="402.99124"
+       cy="-84.485474"
+       fx="402.99124"
+       fy="-84.485474"
+       r="340.64352"
+       gradientTransform="matrix(0.90488771,0,0,0.24021717,-262.77608,133.17511)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      id="layer1"
-     transform="translate(-1.1227089,-0.6140701)">
-    <g
-       id="g7"
-       transform="translate(-24.241877,-118.37547)">
-      <circle
-         style="fill:#1c1f33;fill-opacity:1;stroke-width:0.261733"
-         id="path1"
-         cx="152.74661"
-         cy="246.37157"
-         r="127.38203" />
-      <text
-         xml:space="preserve"
-         style="font-size:285.762px;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#00d1b2;fill-opacity:1;stroke-width:0.238134"
-         x="60.637825"
-         y="340.10773"
-         id="text4"
-         transform="scale(0.99665354,1.0033577)"
-         clip-path="url(#clipPath1)"><tspan
-           id="tspan3"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:285.762px;font-family:Charter;-inkscape-font-specification:Charter;fill:#00d1b2;fill-opacity:1;stroke-width:0.238134"
-           x="60.637825"
-           y="340.10773">K</tspan></text>
-    </g>
+     transform="translate(-0.70693345,-19.591639)">
+    <circle
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:2.18678;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1"
+       cx="100.87305"
+       cy="119.75775"
+       r="99.072723" />
+    <text
+       xml:space="preserve"
+       style="font-size:207.496px;text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;mix-blend-mode:lighten;fill:#00afaa;fill-opacity:1;stroke:url(#radialGradient11);stroke-width:2.71466;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.486487;paint-order:markers fill stroke"
+       x="96.59465"
+       y="190.79507"
+       id="text4"
+       transform="scale(0.98289536,1.0174023)"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:207.496px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle;fill:#00afaa;fill-opacity:1;stroke:url(#radialGradient11);stroke-width:2.71466;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.486487;paint-order:markers fill stroke"
+         x="96.59465"
+         y="190.79507">K</tspan></text>
   </g>
 </svg>
